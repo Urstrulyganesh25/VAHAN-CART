@@ -1,0 +1,132 @@
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .hero {
+        padding: 120px 40px;
+    }
+    .tagline {
+        font-size: 40px;
+        margin-right: 0;
+    }
+    .navbar {
+        gap: 15px;
+    }
+    .welcome {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .hello-img {
+        width: 180px;
+    }
+    .search-bar input {
+        width: 200px;
+    }
+    .vehicle-cards {
+        justify-content: center;
+        gap: 15px;
+    }
+    .card {
+        max-width: 280px;
+        min-height: 400px;
+    }
+    .buy-btn,
+    .rent-btn {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 20px;
+    }
+    .tagline {
+        font-size: 32px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .welcome {
+        padding: 10px;
+    }
+    .hello-img {
+        width: 140px;
+    }
+    .search-bar {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .search-bar input {
+        width: 100%;
+    }
+    .vehicle-cards {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .card {
+        max-width: 100%;
+        min-height: auto;
+    }
+    .buy-btn,
+    .rent-btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    .reviews {
+        padding: 10px;
+    }
+    .review {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .review img {
+        width: 50px;
+        height: 50px;
+    }
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 50px 10px;
+    }
+    .tagline {
+        font-size: 24px;
+    }
+    .navbar a,
+    .login-btn {
+        font-size: 14px;
+    }
+    .welcome {
+        padding: 5px;
+    }
+    .hello-img {
+        width: 100px;
+    }
+    .search-bar button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .reviews h2 {
+        font-size: 20px;
+    }
+    .review img {
+        width: 40px;
+        height: 40px;
+    }
+    .foot-panel1 {
+        font-size: 0.75rem;
+    }
+    .copyright {
+        font-size: 0.75rem;
+    }
+}

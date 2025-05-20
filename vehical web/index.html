@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      style="border-radius: 50%"
+      rel="shortcut icon"
+      href="./img/vahan-cart-logo.jpg"
+      type="/img/vahan-cart-logo.jpg"
+    />
+    <title>Vehicle-cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-------------------------------------------------------------------------------- 
+                                     Header 
+    ---------------------------------------------------------------------------------->
+    <header class="header">
+      <div class="logo">
+        <img src="/img/vahan-cart-logo.jpg" alt="" srcset="" /> <br />
+        <h2>Vahan-Cart</h2>
+      </div>
+      <br />
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <button class="login-btn">Login</button>
+      </nav>
+      <div class="hero">
+        <h1 class="tagline">
+          "Drive with <b style="color: rgb(255, 255, 0)">Passion</b>, <br />
+          Live with <b style="color: rgb(88, 255, 5)">Purpose</b>"
+        </h1>
+        <br />
+        <h4 style="font-size: 20px; color: #fdfdfd; margin-right: 1170px">
+          --"Where Every Drive is a New Story Waiting to Unfold"
+        </h4>
+      </div>
+    </header>
+
+    <div class="shopping-cart">
+      <h3>Shopping Cart (<span id="cart-count">0</span>)</h3>
+      <ul id="cart-items"></ul>
+    </div>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <img
+        src="/img/businessman.png"
+        alt="Boy Saying Hello"
+        class="hello-img"
+      />
+      <div class="search-bar">
+        <input type="text" placeholder="Search for vehicle..." />
+        <button>Search</button>
+      </div>
+    </section>
+
+    <section class="vehicle-cards">
+      <div class="card">
+        <img src="/img/thar.avif" alt="mahindra-thar" />
+        <h2>Mahindra-Thar</h2>
+        <p>
+          The Mahindra Thar is a lifestyle off-road SUV. It combines strong road
+          presence with a punchy engine, smooth transmission and some serious
+          off-road capability.
+        </p>
+        <h2>Rs.11.50 - 17.62 Lakh*</h2>
+        <button class="buy-btn">Buy</button>
+        <button class="rent-btn">Rent</button>
+      </div>
+      <div class="card">
+        <img src="/img/tata-punch.webp" alt="tata-punch" />
+        <h2>Tata Punch</h2>
+        <p>
+          The Tata Punch 2025 is the most affordable SUV from Tata Motors. It is
+          among the safest small cars in the country, with a 5-star safety
+          rating from Global NCAP.
+        </p>
+        <h2>Rs.6 - 10.32 Lakh*</h2>
+        <button class="buy-btn">Buy</button>
+        <button class="rent-btn">Rent</button>
+      </div>
+      <div class="card">
+        <img src="/img/maruti-swift.avif" alt="Car 3" />
+        <h2>Maruti Swift</h2>
+        <p>
+          The Maruti Swift is a midsize hatchback in India which offers a good
+          balance of features, performance, and fuel efficiency.
+        </p>
+        <h2>Rs.6.49 - 9.64 Lakh*</h2>
+        <button class="buy-btn">Buy</button>
+        <button class="rent-btn">Rent</button>
+      </div>
+      <div class="card">
+        <img src="/img/toyta.avif" alt="Car 3" />
+        <h2>Toyota Innova Crysta</h2>
+        <p>
+          The Toyota Innova Crysta is an MPV that gets the basics right with its
+          comfortable cabin that can seat up to 7 occupants, comfortable ride
+          and a reliable diesel engine.
+        </p>
+        <h2>Rs.19.99 - 26.82 Lakh*</h2>
+        <button class="buy-btn">Buy</button>
+        <button class="rent-btn">Rent</button>
+      </div>
+    </section>
+
+    <!---------------------------------------------------------------------------------                               Customer Reviews ---------------------------------------------------------------------------------->
+    <section class="reviews">
+      <h1>Customer Reviews <span class="view-all"></span></h1>
+      <hr />
+      <div class="review">
+        <img src="/REVIEW PICS/pic1.jpg" alt="Profile Pic" />
+
+        <h2>★★★★★</h2>
+        <br />
+
+        <p>
+          "I recently purchased a car from [Vahan-Caet] and I'm absolutely
+          thrilled! The sales team was knowledgeable and helpful, and the
+          paperwork process was smooth. <br />
+          The car is everything I expected and more! Highly recommend!" <br />
+          <br />
+          - Emilly W.
+        </p>
+      </div>
+      <hr />
+      <div class="review">
+        <img src="/REVIEW PICS/pic3.jpg" alt="Profile Pic" />
+        <h2>★★★★☆</h2>
+        <p>
+          "[Vahan-Cart] did an amazing job fixing my car's AC issue! The
+          technician was honest and explained everything clearly. <br />
+          The prices were a bit higher than expected, but the quality of work
+          made up for it. Will definitely go back!" <br />
+          <br />
+          - Akash K.
+        </p>
+      </div>
+      <hr />
+      <div class="review">
+        <img src="/REVIEW PICS/pic2.jpg" alt="Profile Pic" />
+        <h2>★★★☆☆</h2>
+        <p>
+          I rented a car from [Vahan-Cart] for a week and it was decent. The car
+          was clean and in good condition, but <br />the rental process could be
+          more efficient. The prices were a bit steep, but overall, it served
+          its purpose."<br />
+          <br />
+          - David L.
+        </p>
+      </div>
+      <hr />
+      <div class="review">
+        <img src="/REVIEW PICS/pic4.jpg" alt="Profile Pic" />
+        <h2>★★★★★</h2>
+        <p>
+          "I bought a used car from [Dealership] and I'm really happy with the
+          purchase. The car has been reliable so far,<br />
+          and the sales team was transparent about its history. <br />My only
+          suggestion would be to improve the after-sales support." <br />
+          <br />
+          - Elisa Doe.
+        </p>
+      </div>
+      <hr />
+    </section>
+
+    <!---------------------------------------------------------------------------------                                    Footer ---------------------------------------------------------------------------------->
+    <footer class="footer">
+      <div class="foot-panel1">
+        BACK TO TOP
+        <i class="fa-solid fa-turn-up"></i>
+      </div>
+      <div class="foot-panel2">
+        <ul>
+          <p>Get to Know Us</p>
+          <a>About Us</a>
+          <a>Press Releases</a>
+          <a>Blog</a>
+        </ul>
+
+        <ul>
+          <p>Make Money with Us</p>
+          <a> Protect and Build Your Brand</a>
+          <a>sell Vehicle with us</a>
+          <a> Advertise Your Products</a>
+        </ul>
+
+        <ul>
+          <p>Connect with Us</p>
+          <a>Facebook</a>
+          <a> Twitter</a>
+          <a>Instagram</a>
+        </ul>
+
+        <ul>
+          <p>Let Us Help You</p>
+          <a>100% Purchase Protection</a>
+          <a> Vehicle-cart App Download</a>
+          <a> Help </a>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy; 2025 Vehicle-cart.<br />
+          All rights are reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="logic.js"></script>
+  </body>
+</html>
